@@ -1,39 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-
-  <Identity Name="08aadd4f-5665-4542-8c74-ed1abed18c44"
-            Publisher="CN=Victoria"
-            Version="1.0.0.0" />
-
+  <Identity Name="08aadd4f-5665-4542-8c74-ed1abed18c44" Publisher="CN=Victoria" Version="1.0.0.0" />
   <Properties>
     <DisplayName>Hoggy</DisplayName>
     <PublisherDisplayName>Victoria</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.2.1</OSMinVersion>
     <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application Id="App"
-        Executable="$targetnametoken$.exe"
-        EntryPoint="Hoggy.App">
-        <VisualElements
-            DisplayName="Hoggy"
-            Logo="Assets\Logo.png"
-            SmallLogo="Assets\SmallLogo.png"
-            Description="Hoggy"
-            ForegroundText="light"
-            BackgroundColor="#464646">
-            <DefaultTile ShowName="allLogos" />
-            <SplashScreen Image="Assets\SplashScreen.png" />
-        </VisualElements>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Hoggy.App">
+      <VisualElements DisplayName="Hoggy" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Hoggy" ForegroundText="light" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
     </Application>
   </Applications>
   <Capabilities>
